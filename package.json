@@ -1,0 +1,27 @@
+{
+  "name": "a-detector-d",
+  "version": "1.0.0",
+  "description": "An ADBlocker Detector",
+  "main": "src/index.js",
+  "author": "carl-jin",
+  "scripts": {
+    "serve": "vite --host"
+  },
+  "files": [
+    "src"
+  ],
+  "keywords": [
+    "ADblocker",
+    "ADGuard",
+    "ad"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/carl-jin/a_detector_d"
+  },
+  "devDependencies": {
+    "prettier": "^2.5.1",
+    "vite": "^2.7.13"
+  }
+}

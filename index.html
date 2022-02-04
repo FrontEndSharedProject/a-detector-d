@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>a-detector-d</title>
+    <script src="./example/index.ts" type="module"></script>
+    <style>
+      body {
+        display: flex;
+        height: 100vh;
+        box-sizing: border-box;
+        padding: 20px;
+        align-items: center;
+        justify-content: center;
+        margin: 0px;
+        background-color: #111;
+        font-family: sans-serif;
+        color: #aaa;
+      }
+
+      span.on,
+      span.off {
+        display: none;
+      }
+
+      body.on span.on{
+        display: inline;
+        color: #f20;
+      }
+      body.off span.off{
+        display: inline;
+        color: #00ff00;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>
+      ADBlocker is
+
+      <span class="on"> On </span>
+      <span class="off"> Off </span>
+    </h1>
+  </body>
+</html>
