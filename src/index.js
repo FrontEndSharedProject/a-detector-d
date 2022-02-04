@@ -59,13 +59,13 @@ const blockRules = [
 
 export default async function () {
   return new Promise((res) => {
-    let randIndex = Math.ceil(Math.random() * blockRules.length);
-    fetch(`/${blockRules[randIndex]}`, {
+    let rule = blockRules[Math.floor(Math.random() * blockRules.length)];
+    fetch(`/${rule}`, {
       method: "HEAD",
       mode: "no-cors",
     })
-      .then(()=>{
-        res(false)
+      .then(() => {
+        res(false);
       })
       .catch((error) => {
         res(true);
