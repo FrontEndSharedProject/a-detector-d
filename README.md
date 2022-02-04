@@ -2,7 +2,7 @@
 
 You can detect nasty ad blockers via ONE-LINE 🙀;
 
-Check here [https://github.com/carl-jin/a-detector-d](https://github.com/carl-jin/a-detector-d)
+Check here [https://carl-jin.github.io/a-detector-d/](https://carl-jin.github.io/a-detector-d/)
 
 # Installation
 
