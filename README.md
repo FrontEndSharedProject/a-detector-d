@@ -1,6 +1,6 @@
 # a-detector-d 🚫🕵
 
-You can detect nasty ad blockers.
+You can detect nasty ad blockers via ONE-LINE 🙀
 
 # Installation
 
