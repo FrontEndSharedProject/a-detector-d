@@ -1,6 +1,6 @@
 {
   "name": "a-detector-d",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "An ADBlocker Detector",
   "main": "./src/index.js",
   "module":"./src/index.js",

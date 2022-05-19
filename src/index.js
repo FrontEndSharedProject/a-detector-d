@@ -57,18 +57,20 @@ const blockRules = [
   "?wpstealthadsjs=",
 ];
 
-export default async function () {
+export default async function (delay = 0) {
   return new Promise((res) => {
     let rule = blockRules[Math.floor(Math.random() * blockRules.length)];
-    fetch(`/${rule}`, {
-      method: "HEAD",
-      mode: "no-cors",
-    })
-      .then(() => {
-        res(false);
+    setTimeout(() => {
+      fetch(`/${rule}`, {
+        method: "HEAD",
+        mode: "no-cors",
       })
-      .catch((error) => {
-        res(true);
-      });
+        .then(() => {
+          res(false);
+        })
+        .catch((error) => {
+          res(true);
+        });
+    }, delay)
   });
 }
